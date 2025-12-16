@@ -1,0 +1,120 @@
+body
+{
+ background: url('bg.jpg') no-repeat top/cover;
+ border-radius: 5px;
+ background-size:560px 808px;
+ border:solid 3px rgb(255, 0, 208);
+ width:560px;
+ height:805px;
+ text-align:justify;
+ margin:auto;
+}
+.topic
+{
+    color: white;
+    padding-top:8px;
+    padding-left:20px;
+}
+.line
+{
+    background-color:lightgray;
+    padding-left:20px;
+    height:3px;
+    width:500px;
+    border:0px;
+}
+.para
+{
+    padding-top:10px;
+    padding-left:20px;
+    padding-right:20px;
+    color:rgb(255, 255, 255);
+    font-size:18px;
+}
+.highlight
+{
+    background-color:rgb(169, 88, 255);
+}
+.quote
+{
+    background:linear-gradient( rgb(255, 149, 241),rgb(98, 185, 238));
+    font-size:20;
+    margin:20px;
+    margin-bottom:27px;
+    color:rgb(9, 26, 86);
+    text-align:center;
+    font-weight:bold;
+    font-style: italic;
+    border-radius: 10px 0px;
+    padding:7px;
+    border-left: 5px solid rgb(76, 11, 239);
+}
+.photo img
+{
+    width:105px;
+    height:150px;
+    border-radius:3px;
+    justify-content:center;
+}
+.photo
+{
+    font-family:'Times New Roman', Times, serif;
+    background:linear-gradient( rgb(255, 209, 249),rgba(94, 179, 244, 0.679));
+    font-size:18;
+    padding:10px;
+    margin:20px;
+    margin-bottom:30px;
+    border-radius:10px;
+    display:flex;
+    gap:3px;
+    justify-content:flex-end;
+}
+.name
+{
+    padding-left:3px;  
+    color:rgb(15, 2, 59);
+}
+.spanclass
+{
+    font-weight:bold;
+    color: rgb(103, 15, 144);
+}
+.details
+{
+    background-color:rgb(198, 165, 238);
+    padding:15px;
+    margin:20px;
+    border-left:solid 5px rgb(76, 11, 239);
+    border-radius:10px;
+    height:35px;
+    color:rgb(15, 49, 137);
+    position: relative;
+    top:100px;    
+}
+.publisher
+{
+    position: relative;
+    color:rgb(18, 32, 116);
+    font-weight:bold;
+    font-size:17px;
+}
+.price
+{
+    color:rgb(48, 6, 120);
+    position: relative;
+    right: -280px;
+    bottom: 0px;
+    font-weight:bold;
+    font-size:17px;
+}
+.print
+{
+    position:relative;
+    color:rgb(117, 79, 231);
+    left: -208px;
+    bottom: -20px;
+    font-weight:bold; 
+    font-size:17px;
+}
+
+
